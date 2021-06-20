@@ -1,0 +1,35 @@
+/* 
+Box Model
+    Layout model
+        * Box MOdel
+        * Position
+        * Flexbox
+        * CSS Grid
+
+Box model (modelo de caja)
+Todos los ellementos sopn rectangulos
+
+DOs tipos de cajas o elementos
+
+    * Bloque: 
+        * Ocupa todo ele spacio horizontal disponible
+        * Crean una linea nueva
+        * Tiene ancho (width) y alto (height)
+    * Inline (en linea)
+
+        * Unidades de longitud (medidad de tamaño)
+            * Pixeles (px)
+            * em (% del tamaño de fuente4 o letra atual)
+            * rem (% del tamaño de fuento o letra de body)
+*/
+
+h1 {
+	background: yellow;
+	width: 8rem;
+	height: 100px;
+}
+
+p {
+	background-color: pink;
+	width: 8rem;
+}

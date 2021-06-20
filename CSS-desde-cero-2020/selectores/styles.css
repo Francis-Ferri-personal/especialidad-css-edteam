@@ -1,0 +1,88 @@
+/* Estos son los estilos de los tiulos */
+.title-main-level {
+	/* Organiza las propiedaddes por similitud*/
+	color: white;
+	background-color: red;
+	width: 200px;
+	margin: 4em;
+}
+
+/* Variables CSS (custom properties) */
+
+:root {
+	--color: purple;
+}
+
+h1 {
+	color: var(--color);
+	font-size: 1em;
+}
+
+p {
+	color: var(--color);
+}
+
+ul {
+	color: red;
+}
+
+h1.purple {
+	color: purple;
+}
+
+* {
+	background-color: white;
+}
+
+p + div {
+	border: 1px solid;
+}
+
+p ~ div {
+	border: 1px solid;
+	background-color: yellow;
+}
+
+/* Selectores de atributo  
+Usan []
+value: 
+*/
+
+input[type="number"] {
+	border: 1px solid blue;
+}
+
+input[type="text"] {
+	border: 1px solid red;
+}
+
+[required] {
+	border: 1px solid green;
+}
+
+[type="submit"] {
+	background-color: steelblue;
+	border: none;
+	color: white;
+}
+
+/* Comienza con [att^="value"] */
+[type^="sub"] {
+	background-color: green;
+}
+
+a[href^="http://"]
+{
+	border-bottom: 1px dashed red;
+	color: red;
+}
+
+/* Termina con [attr$="value"] */
+a[href$=".mp4"] {
+	background-color: red;
+}
+
+a[href*="team"] {
+	color: white;
+	background-color: blue;
+}
